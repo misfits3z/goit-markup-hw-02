@@ -51,8 +51,8 @@
     color: var(--white);
     cursor: pointer;;
 }
-.active-button:hover{
-    color: var(--iris);
+.active-button:hover, .active-button:focus{
+    color: var(--white);
     background-color: var(--ocean);
 }
 .headline{
